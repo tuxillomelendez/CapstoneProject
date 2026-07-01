@@ -1,0 +1,11 @@
+# Reproducibilidad de los experimentos (Python 3.10+)
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+pyarrow>=12.0
+xgboost>=2.0          # 2.x usa device='cuda' para GPU; con 1.x el codigo cae a 'gpu_hist'
+scikit-learn>=1.3
+scikit-survival>=0.22 # C-index de Uno (IPCW) e IBS
+lifelines>=0.27       # Cox baseline
+optuna>=3.4           # tuning parejo XGB/RSF
+matplotlib>=3.7
