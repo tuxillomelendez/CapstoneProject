@@ -2,8 +2,8 @@
 
 Análisis de supervivencia (XGBoost-AFT) para anticipar la pérdida del enlace de
 comunicación de equipos telecontrolados. Este repositorio contiene el código que
-reproduce los experimentos de la tesis. **La data completa es privada** (Enel,
-infraestructura crítica); se incluye un **toy público anónimo** para reproducir el
+reproduce los experimentos de la tesis. **La data completa es privada** (datos reales de
+una empresa de distribución eléctrica, infraestructura crítica); se incluye un **toy público anónimo** para reproducir el
 pipeline de punta a punta sin exponer información sensible.
 
 ## Estructura
