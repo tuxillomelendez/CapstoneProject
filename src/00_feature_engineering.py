@@ -6,7 +6,7 @@ Autor:             Jorge Eduardo Meléndez Bastías
 Profesor guía:     Dr. Christian Pieringer Baeza
 Profesor co-guía:  Dr. Ronal Manuel Coronado
 Profesor revisor:  Francisco Pérez Galarce
-Universidad de Las Américas (UDLA), Santiago de Chile, 2026.
+Universidad de Las Américas (UDLA), Chile, 2026.
 
 Script 00 - Ingeniería de características (Feature Engineering).
 
@@ -128,7 +128,7 @@ if TICKETS_PATH.exists():
     df_tickets = pd.read_csv(
         TICKETS_PATH,
         sep=",",
-        encoding="utf-8",  # si falla, prueba "latin1"
+        encoding="utf-8",  # si falla, probar con "latin1"
         low_memory=False
     )
     print(f"  ✓ Tickets cargados: {len(df_tickets):,}")
@@ -159,7 +159,7 @@ if TICKETS_PATH.exists():
     print(f"  ✓ Registros totales a evaluar: {registros_iniciales:,}")
 
     # -------------------------------------------------------------------------
-    # 🚀 FILTRADO PERFORMANTE:
+    # FILTRADO PERFORMANTE:
     # 1) Fusionar (union) intervalos por Numpos para evitar casos anidados/solapados
     # 2) Para cada Numpos, marcar filas con searchsorted (vectorizado)
     # -------------------------------------------------------------------------
@@ -281,7 +281,7 @@ else:
 
 
 # ==============================================================================
-# PASO 1.6: INTEGRACIÓN DE VARIABLES DEL MANTENEDOR
+# PASO 1.6: INTEGRACIÓN DE VARIABLES DEL MANTENEDOR/INVENTARIO
 # ==============================================================================
 print("\n" + "="*70)
 print("PASO 1.6: INTEGRACIÓN DE VARIABLES DEL MANTENEDOR")
