@@ -6,7 +6,7 @@ Autor:             Jorge Eduardo Meléndez Bastías
 Profesor guía:     Dr. Christian Pieringer Baeza
 Profesor co-guía:  Dr. Ronal Manuel Coronado
 Profesor revisor:  Francisco Pérez Galarce
-Universidad de Las Américas (UDLA), Santiago de Chile, 2026.
+Universidad de Las Américas (UDLA), Chile, 2026.
 
 Script 02 - Modelo corregido, matriz de ablación, línea base Cox y residuos.
 
@@ -50,7 +50,7 @@ import config as C
 import lib as L
 
 # Parámetros de la corrida.
-BALANCEADO = True          # 50/50 evento/censura (poner False para proporción natural).
+BALANCEADO = True          # 50/50 evento/censura (False para proporción natural).
 SAMPLE_N   = 1_000_000     # Submuestra para el modelamiento.
 
 # --- Carga y submuestreo ----------------------------------------------------
