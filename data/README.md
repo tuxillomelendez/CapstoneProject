@@ -10,7 +10,7 @@ Muestra **anónima** de equipos para reproducir el pipeline. Generada con
 **No contiene** identificadores reales, direcciones de comunicación, ni timestamps.
 
 ## Data completa (privada — NO incluida)
-El dataset real (~95M registros de gateways SCADA de Enel Distribución) es **privado**
-por confidencialidad y seguridad de infraestructura crítica. Para reproducir sobre él,
+El dataset real (datos de telemetría de equipos telecontrolados de una empresa de distribución
+eléctrica) es **privado** por confidencialidad y seguridad de infraestructura crítica. Para reproducir sobre él,
 apunta la variable de entorno `TESIS_DATA` a tu archivo `dataset_modelamiento.parquet`
 (ver README principal).
