@@ -6,7 +6,7 @@ Autor:             Jorge Eduardo Meléndez Bastías
 Profesor guía:     Dr. Christian Pieringer Baeza
 Profesor co-guía:  Dr. Ronal Manuel Coronado
 Profesor revisor:  Francisco Pérez Galarce
-Universidad de Las Américas (UDLA), Santiago de Chile, 2026.
+Universidad de Las Américas (UDLA), Chile, 2026.
 
 Script 04 - Barrido de escala: XGBoost AFT frente a Random Survival Forest.
 
